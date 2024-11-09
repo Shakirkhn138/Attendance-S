@@ -99,7 +99,7 @@ class _LoginScreenState extends State<LoginScreen> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const Text('Not register yet'),
+                  const Text('Not register yet?'),
                   TextButton(
                     onPressed: () {
                       Navigator.of(context).push(
