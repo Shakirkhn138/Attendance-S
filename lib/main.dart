@@ -18,7 +18,8 @@ class Myapp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: RegistrationScreen(),
+      debugShowCheckedModeBanner: false,
+      // home: RegistrationScreen(),
 
       initialRoute: '/login',
       routes: {
